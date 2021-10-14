@@ -1,0 +1,28 @@
+:root {
+    --primary: #7a2be2;
+    --secondary: #f0f0f0;
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--secondary)
+}
+
+main {
+    flex-grow: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 239, 255);
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 3em;
+    height: 2em;
+    width: 4em;
+    margin: 1em;
+}
